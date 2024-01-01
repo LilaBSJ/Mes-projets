@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    text-transform:none;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#conteneur{
+    width: 960px;
+    min-height: 200px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+#entete{
+    background-color: rgb(209, 72, 72);
+    line-height: 100px;
+}
+
+#haut{
+  width: 100%;
+  height:20%;
+  background: rgb(223, 72, 72);
+}
+
+div #main .flexbox{
+    display: flex;
+    flex-direction: row;
+}
+div .containeur{
+    display: flex;
+    flex-direction: column;
+}
+
+#gauche{
+    background-color: rgb(90, 90, 243);
+    color: white;
+    width: 200px;
+    height: 500px;
+    justify-content: center;
+    font-weight: normal;
+    line-height: 500px;
+}
+#central{
+    display: flex;
+    flex-direction: row;
+}
+div .z1{
+    background-color: rgb(108, 214, 10);
+    color: white;
+    width: 112px;
+    height: 400px;
+    justify-content: center;
+    font-weight: normal;
+    line-height: 500px;
+    border: white 1px solid;
+}
+
+div .z2{
+    background-color: rgb(108, 214, 10);
+    color: white;
+    width: 112px;
+    height: 400px;
+    justify-content: center;
+    font-weight: normal;
+    line-height: 500px;
+    border: white 1px solid;
+}
+div .z3{
+    background-color: rgb(108, 214, 10);
+    color: white;
+    width: 112px;
+    height: 400px;
+    justify-content: center;
+    font-weight: normal;
+    line-height: 500px;
+    border: white 1px solid;
+}
+div .z4{
+    background-color: rgb(108, 214, 10);
+    color: white;
+    width: 112px;
+    height: 400px;
+    justify-content: center;
+    font-weight: normal;
+    line-height: 500px;
+    border: white 1px solid;
+}
+div .z5{
+    background-color: rgb(108, 214, 10);
+    color: white;
+    width: 112px;
+    height: 400px;
+    justify-content: center;
+    font-weight: normal;
+    line-height: 500px;
+    border: white 1px solid;
+}
+#droite{
+    background-color: rgb(90, 90, 243);
+    color: white;
+    width: 200px;
+    height: 500px;
+    justify-content: center;
+    font-weight: normal;
+    line-height: 500px
+}
+#pied{
+    background-color: rgb(255, 185, 56);
+    width: 560px;
+    height: 100px;
+    line-height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
